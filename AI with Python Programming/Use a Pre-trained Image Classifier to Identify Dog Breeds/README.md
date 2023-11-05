@@ -1,6 +1,10 @@
 <h1>Use a Pre-trained Image Classifier to Identify Dog Breeds</h1>
 
-[Udacity Project.pdf](https://github.com/PranavDarshan/Udacity-Projects/files/13260135/Udacity.Project.pdf)
+<h2>Guidelines for the Project</h2>
+
+Guidelines for the project 1 can be found below in the attached pdf. All the TODO's have already been completed in this code. Please refer the comments and docstrings for more information regarding the source file.
+
+[Udacity Project _1 Use a Pre-trained Image Classifier to Identify Dog Breeds.pdf](https://github.com/PranavDarshan/Udacity-Projects/files/13260250/Udacity.Project._1.Use.a.Pre-trained.Image.Classifier.to.Identify.Dog.Breeds.pdf)
 
 
 <h2>Setup and Requirements to Run on Windows</h2>
