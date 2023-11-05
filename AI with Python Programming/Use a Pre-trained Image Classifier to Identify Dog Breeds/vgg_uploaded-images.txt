@@ -1,0 +1,90 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 6 key-value pairs.
+Below are 6 of them:
+ 1 key:                   Bison_01.jpg  label:                      bison
+ 2 key:                Espresso_01.jpg  label:                   espresso
+ 3 key:                   Husky_01.jpg  label:                      husky
+ 4 key:                  Laptop_01.jpg  label:                     laptop
+ 5 key:              Rottweiler_01.jpg  label:                 rottweiler
+ 6 key:              Rottweiler_02.jpg  label:                 rottweiler
+
+     MATCH:
+
+                  Bison_01.jpg: 
+Real:                      bison   Classifier:                          bison
+
+               Espresso_01.jpg: 
+Real:                   espresso   Classifier:                       espresso
+
+                  Husky_01.jpg: 
+Real:                      husky   Classifier:              eskimo dog, husky
+
+             Rottweiler_01.jpg: 
+Real:                 rottweiler   Classifier:                     rottweiler
+
+ NOT A MATCH:
+
+                 Laptop_01.jpg: 
+Real:                     laptop   Classifier:                        monitor
+
+             Rottweiler_02.jpg: 
+Real:                 rottweiler   Classifier:             miniature pinscher
+
+# Total Images 6 # Matches: 4 # NOT Matches: 2
+
+     MATCH:
+
+                  Bison_01.jpg: 
+Real:                      bison   Classifier:                          bison  
+PetLabelDog: 0  ClassLabelDog: 0
+
+               Espresso_01.jpg: 
+Real:                   espresso   Classifier:                       espresso  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                  Husky_01.jpg: 
+Real:                      husky   Classifier:              eskimo dog, husky  
+PetLabelDog: 1  ClassLabelDog: 1
+
+             Rottweiler_01.jpg: 
+Real:                 rottweiler   Classifier:                     rottweiler  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+                 Laptop_01.jpg: 
+Real:                     laptop   Classifier:                        monitor  
+PetLabelDog: 0  ClassLabelDog: 0
+
+             Rottweiler_02.jpg: 
+Real:                 rottweiler   Classifier:             miniature pinscher  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 6 # Matches: 4 # NOT Matches: 2
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  6  N Dog Images:  3  N NotDog Images:  3 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  66.7
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  6  N Dog Images:  3  N NotDog Images:  3 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  66.7
+
+
+*** Results Summary for CNN Model Architecture  VGG ***
+Number of Images              :   6
+Number of Dog Images          :   3
+Number of "Not-a" Dog Images  :   3
+Pct_Match                     : 66.666667
+Pct_Correct_Dogs              : 100.000000
+Pct_Correct_Notdogs           : 100.000000
+Pct_Correct_Breed             : 66.666667
+
+INCORRECT Dog Breed Assignment:
+Real:                 rottweiler   Classifier:             miniature pinscher
+
+** Total Elapsed Runtime: 0:0:31
