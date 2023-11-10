@@ -87,4 +87,4 @@ Pct_Correct_Breed             : 66.666667
 INCORRECT Dog Breed Assignment:
 Real:                 rottweiler   Classifier:                      chihuahua
 
-** Total Elapsed Runtime: 0:0:30
+** Total Elapsed Runtime: 0:0:0
