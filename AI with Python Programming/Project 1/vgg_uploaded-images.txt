@@ -87,4 +87,4 @@ Pct_Correct_Breed             : 66.666667
 INCORRECT Dog Breed Assignment:
 Real:                 rottweiler   Classifier:             miniature pinscher
 
-** Total Elapsed Runtime: 0:0:32
+** Total Elapsed Runtime: 0:0:2
