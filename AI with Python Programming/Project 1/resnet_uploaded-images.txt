@@ -88,4 +88,4 @@ INCORRECT Dog Breed Assignment:
 Real:                      husky   Classifier: malamute, malemute, alaskan malamute
 Real:                 rottweiler   Classifier:              brabancon griffon
 
-** Total Elapsed Runtime: 0:0:30
+** Total Elapsed Runtime: 0:0:0
