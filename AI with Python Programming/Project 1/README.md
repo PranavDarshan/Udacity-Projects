@@ -16,11 +16,15 @@ https://learn.udacity.com/nanodegrees/nd089/parts/cd0184/lessons/9664b117-d773-4
  
  ![image](https://github.com/PranavDarshan/Udacity-Projects/assets/65911046/1b4dd7cd-1185-4532-9a4a-e7cafe9d0461)
 
-3. Also ensure that <b>run_models_batch</b> and <b>run_models_uploaded</b> files are in bat extension. If not change it to bat extension.
+3.You can also install the dependencies by the environments.yaml file that is present in this project using annaconda. For that in your command prompt go to the current directory and type the following command. 
+  ```ruby
+conda env create -f environment.yaml
+```
+4. Also ensure that <b>run_models_batch</b> and <b>run_models_uploaded</b> files are in bat extension. If not change it to bat extension.
 
 <h2>Running on Windows</h2>
 
-1. You can directly run the <b>check_images.py</b> to run a single model on VS code by changing your interpreter to Annaconda environment that you have created and downloaded the libraries, base:root in my case. Open a cmd terminal in VS Code and make sure you are in the correct directory.
+1. You can directly run the <b>check_images.py</b> to run a single model on VS code by changing your interpreter to Annaconda environment that you have created and downloaded the libraries, base:root in my case. If you have installed the dependencies using the environment.yaml file, then the environment name present in the environment.yaml file is project1 and ensure that you use this environment to run the following program. Open a cmd terminal in VS Code and make sure you are in the correct directory.
 
 ![image](https://github.com/PranavDarshan/Udacity-Projects/assets/65911046/d08d4a11-73c6-4a62-8f15-5d08e285ade4)
 
